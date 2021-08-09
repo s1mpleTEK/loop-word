@@ -23,7 +23,6 @@ jobs:
           git add build/*
           git commit -m "deployment"
           git push -f origin gh-pages
-          ${{ SSH_SECRET }}
           rm -fr build/
         
       
