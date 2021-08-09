@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/loop-word/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/loop-word/static/js/main.bab189f6.chunk.js",
+    "main.js.map": "/loop-word/static/js/main.bab189f6.chunk.js.map",
+    "runtime-main.js": "/loop-word/static/js/runtime-main.24f96eaf.js",
+    "runtime-main.js.map": "/loop-word/static/js/runtime-main.24f96eaf.js.map",
+    "static/js/2.1894eb53.chunk.js": "/loop-word/static/js/2.1894eb53.chunk.js",
+    "static/js/2.1894eb53.chunk.js.map": "/loop-word/static/js/2.1894eb53.chunk.js.map",
+    "static/js/3.b938666d.chunk.js": "/loop-word/static/js/3.b938666d.chunk.js",
+    "static/js/3.b938666d.chunk.js.map": "/loop-word/static/js/3.b938666d.chunk.js.map",
+    "index.html": "/loop-word/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/loop-word/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.1894eb53.chunk.js.LICENSE.txt": "/loop-word/static/js/2.1894eb53.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/loop-word/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24f96eaf.js",
+    "static/js/2.1894eb53.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.bab189f6.chunk.js"
+  ]
+}
