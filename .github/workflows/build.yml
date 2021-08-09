@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deployment GitHub Pages
 
 on:
   pull_request:
@@ -20,7 +20,7 @@ jobs:
       
       - name: Add Build Folder
         run: |
-          cd build
+          cd build/
           git init
           git add -A
           git commit -m "deployment"
