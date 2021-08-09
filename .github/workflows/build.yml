@@ -20,9 +20,12 @@ jobs:
       
       - name: Add Build Folder
         run: |
-          git add build/*
+          cd build
+          git init
+          git add -A
           git commit -m "deployment"
-          git push -f origin gh-pages
+          git push -f git@github.com:s1mpleTEK/loop-word.git master:gh-pages
+          cd ..
           rm -fr build/
         
       
