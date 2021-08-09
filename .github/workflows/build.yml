@@ -19,12 +19,9 @@ jobs:
         run: |
           yarn build
           ls -l
-          cd build/
-          git init
-          git add -A
+          git add --force build/*
           git commit -m "deployment"
           git push -f git@github.com:s1mpleTEK/loop-word.git master:gh-pages
-          cd ..
           rm -fr build/
         
       
