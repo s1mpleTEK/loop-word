@@ -18,6 +18,7 @@ jobs:
       - name: Build
         run: |
           yarn build
+          ls -l
           cd build/
           git init
           git add -A
