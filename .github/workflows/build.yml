@@ -16,12 +16,6 @@ jobs:
         run: npm install
 
       - name: Build
-        run: |
-          yarn build
-          ls -l
-          git add --force build/*
-          git commit -m "deployment"
-          git push -f git@github.com:s1mpleTEK/loop-word.git master:gh-pages
-          rm -fr build/
+        run: bash deploy.sh
         
       
