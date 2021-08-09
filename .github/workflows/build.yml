@@ -1,9 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deployment GitHub Pages
 
 on:
-  pull_request:
+  push:
     branches: [ master ]
 jobs:
   build:
@@ -16,14 +16,16 @@ jobs:
         run: npm install
 
       - name: Run Build
-        run: npm build
+        run: yarn build
       
       - name: Add Build Folder
         run: |
-          git add build/*
+          cd build/
+          git init
+          git add -A
           git commit -m "deployment"
-          git push -f origin gh-pages
-          ${{ SSH_SECRET }}
+          git push -f git@github.com:s1mpleTEK/loop-word.git master:gh-pages
+          cd ..
           rm -fr build/
         
       
