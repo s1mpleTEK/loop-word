@@ -16,7 +16,7 @@ jobs:
         run: npm install
 
       - name: Run Build
-        run: npm build
+        run: yarn build
       
       - name: Add Build Folder
         run: |
